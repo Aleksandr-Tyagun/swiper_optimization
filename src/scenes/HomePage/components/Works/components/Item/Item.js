@@ -15,7 +15,7 @@ const Item = ({ images }) => {
           */
           <Img
             key={childImageSharp.fluid.src}
-            className={`${styles.image} swiper-lazy`}
+            className={`${styles.image}`}
             fluid={childImageSharp.fluid}
             draggable={false}
             loading="eager"

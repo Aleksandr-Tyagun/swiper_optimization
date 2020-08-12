@@ -48,7 +48,6 @@ const Works = () => {
   const params = {
     slidesPerView: 'auto',
     loop: true,
-    lazy: true,
     speed: 500,
     containerClass: styles.slider,
   };
