@@ -3,9 +3,3 @@ publish = "public"
 
 [[plugins]]
 package = "netlify-plugin-gatsby-cache"
-
-[[plugins]]
-package = "@netlify/plugin-lighthouse"
-
-[plugins.inputs]
-audits = 'https://compassionate-shaw-1a08e4.netlify.app/'
