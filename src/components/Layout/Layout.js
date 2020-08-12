@@ -28,7 +28,7 @@ const Layout = ({ children, isGlow, headerIsWhite }) => {
     <HeaderGradientContext.Provider value={{ setIsHeaderWithoutGradient }}>
       <>
         {/* TODO: This is very bad, I know. But. */}
-        {/* {isOpened ? (
+        {isOpened ? (
           <Helmet>
             <body className={styles.locked}></body>
           </Helmet>
@@ -41,12 +41,12 @@ const Layout = ({ children, isGlow, headerIsWhite }) => {
               forwardedRef={headerRef}
               withoutGradient={isHeaderGradient}
             />
-          </header> */}
-        <main className={mainClasses}>{children}</main>
-        {/* <footer className={footerClasses}>
+          </header>
+          <main className={mainClasses}>{children}</main>
+          <footer className={footerClasses}>
             <Footer />
-          </footer> */}
-        {/* </div> */}
+          </footer>
+        </div>
       </>
     </HeaderGradientContext.Provider>
   );
