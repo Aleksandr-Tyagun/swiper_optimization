@@ -4,7 +4,23 @@ export const homeWorksBigImage = graphql`
   fragment homeWorksBigImage on File {
     childImageSharp {
       fluid(
-        srcSetBreakpoints: [194, 233, 388, 349, 1163]
+        # srcSetBreakpoints: [194, 233, 388, 349, 1163]
+        srcSetBreakpoints: [
+          50
+          100
+          150
+          200
+          250
+          300
+          350
+          400
+          450
+          500
+          550
+          600
+          650
+          700
+        ]
         maxWidth: 755
         quality: 85
       ) {
@@ -18,7 +34,8 @@ export const homeWorksMiddleImage = graphql`
   fragment homeWorksMiddleImage on File {
     childImageSharp {
       fluid(
-        srcSetBreakpoints: [125, 150, 225, 250, 750, 1000]
+        # srcSetBreakpoints: [125, 150, 225, 250, 750, 1000]
+        srcSetBreakpoints: [50, 100, 150, 200, 250, 300, 350, 400, 450]
         maxWidth: 500
         quality: 85
       ) {
@@ -32,7 +49,8 @@ export const homeWorksSmallImage = graphql`
   fragment homeWorksSmallImage on File {
     childImageSharp {
       fluid(
-        srcSetBreakpoints: [60, 72, 119, 167, 357, 476]
+        # srcSetBreakpoints: [60, 72, 119, 167, 357, 476]
+        srcSetBreakpoints: [50, 100, 150, 200]
         maxWidth: 238
         quality: 85
       ) {
