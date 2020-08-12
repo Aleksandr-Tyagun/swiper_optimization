@@ -11,13 +11,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        useMozJpeg: true,
-        stripMetadata: true,
-      },
-    },
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-optimize-svgs`,
     `gatsby-plugin-sass`,
     {
