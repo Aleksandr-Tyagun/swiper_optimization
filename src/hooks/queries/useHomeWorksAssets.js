@@ -5,30 +5,30 @@ export const homeWorksBigImage = graphql`
     childImageSharp {
       fluid(
         # srcSetBreakpoints: [194, 233, 388, 349, 1163]
-        srcSetBreakpoints: [
-          50
-          100
-          150
-          200
-          250
-          300
-          350
-          400
-          450
-          500
-          550
-          600
-          650
-          700
-          1000
-          1100
-          1200
-          1300
-          1400
-          1500
-        ]
+        # srcSetBreakpoints: [
+        #   50
+        #   100
+        #   150
+        #   200
+        #   250
+        #   300
+        #   350
+        #   400
+        #   450
+        #   500
+        #   550
+        #   600
+        #   650
+        #   700
+        #   1000
+        #   1100
+        #   1200
+        #   1300
+        #   1400
+        #   1500
+        # ]
         maxWidth: 755
-        quality: 85
+        quality: 100
       ) {
         ...GatsbyImageSharpFluid_withWebp
       }
@@ -41,25 +41,25 @@ export const homeWorksMiddleImage = graphql`
     childImageSharp {
       fluid(
         # srcSetBreakpoints: [125, 150, 225, 250, 750, 1000]
-        srcSetBreakpoints: [
-          50
-          100
-          150
-          200
-          250
-          300
-          350
-          400
-          450
-          1000
-          1100
-          1200
-          1300
-          1400
-          1500
-        ]
+        # srcSetBreakpoints: [
+        #   50
+        #   100
+        #   150
+        #   200
+        #   250
+        #   300
+        #   350
+        #   400
+        #   450
+        #   1000
+        #   1100
+        #   1200
+        #   1300
+        #   1400
+        #   1500
+        # ]
         maxWidth: 500
-        quality: 85
+        quality: 100
       ) {
         ...GatsbyImageSharpFluid_withWebp
       }
@@ -72,20 +72,20 @@ export const homeWorksSmallImage = graphql`
     childImageSharp {
       fluid(
         # srcSetBreakpoints: [60, 72, 119, 167, 357, 476]
-        srcSetBreakpoints: [
-          50
-          100
-          150
-          200
-          1000
-          1100
-          1200
-          1300
-          1400
-          1500
-        ]
+        # srcSetBreakpoints: [
+        #   50
+        #   100
+        #   150
+        #   200
+        #   1000
+        #   1100
+        #   1200
+        #   1300
+        #   1400
+        #   1500
+        # ]
         maxWidth: 238
-        quality: 85
+        quality: 100
       ) {
         ...GatsbyImageSharpFluid_withWebp
       }
