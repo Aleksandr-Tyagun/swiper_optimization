@@ -1,5 +1,11 @@
 [build]
-  publish = "public"
+publish = "public"
 
 [[plugins]]
-  package = "netlify-plugin-gatsby-cache"
+package = "netlify-plugin-gatsby-cache"
+
+[[plugins]]
+package = "@netlify/plugin-lighthouse"
+
+[plugins.inputs]
+audit_url = 'https://compassionate-shaw-1a08e4.netlify.app/'
