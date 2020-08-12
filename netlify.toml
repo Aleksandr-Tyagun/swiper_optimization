@@ -8,4 +8,4 @@ package = "netlify-plugin-gatsby-cache"
 package = "@netlify/plugin-lighthouse"
 
 [plugins.inputs]
-audit_url = 'https://compassionate-shaw-1a08e4.netlify.app/'
+audits = 'https://compassionate-shaw-1a08e4.netlify.app/'
