@@ -153,5 +153,11 @@ module.exports = {
         selectorLength: 7,
       },
     },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
+      },
+    },
   ],
 };
