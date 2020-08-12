@@ -9,7 +9,7 @@ import {
 } from '@hooks/queries';
 import Title from './components/Title';
 import Ticker from '@components/Ticker';
-import Swiper from 'react-id-swiper';
+// import Swiper from 'react-id-swiper';
 import Item from './components/Item';
 
 import { BREAKPOINTS } from '@constants';
@@ -45,12 +45,12 @@ const Works = () => {
     [Realty, Hommy, Tude],
   ];
 
-  const params = {
-    slidesPerView: 'auto',
-    loop: true,
-    speed: 500,
-    containerClass: styles.slider,
-  };
+  // const params = {
+  //   slidesPerView: 'auto',
+  //   loop: true,
+  //   speed: 500,
+  //   containerClass: styles.slider,
+  // };
 
   const images = imageList.map(image => {
     return {
@@ -65,14 +65,14 @@ const Works = () => {
       {breakpoint === BREAKPOINTS.DESKTOP && !isOpened ? (
         <Ticker images={images} arrowLeft={arrowLeft} arrowRight={arrowRight} />
       ) : null}
-      {breakpoint === BREAKPOINTS.MOBILE ||
+      {/* {breakpoint === BREAKPOINTS.MOBILE ||
       breakpoint === BREAKPOINTS.TABLET ? (
         <Swiper {...params}>
           {imageList.map(item => {
             return <Item images={item} key={item[0].name} />;
           })}
         </Swiper>
-      ) : null}
+      ) : null} */}
     </div>
   );
 };
